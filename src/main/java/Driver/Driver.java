@@ -7,8 +7,8 @@ import java.util.List;
 
 public class Driver {
 
-    private static final String dataDecisionsFilePath =  "/Users/bhim/IdeaProjects/Go-Back-N-Simulation/src/main/resources/DATA_GOOD_2";
-    private static final String ackDecisionFilePath = "/Users/bhim/IdeaProjects/Go-Back-N-Simulation/src/main/resources/ACK_GOOD_2";
+    private static final String dataDecisionsFilePath =  "resources/DATA_GOOD_2";
+    private static final String ackDecisionFilePath = "resources/ACK_GOOD_2";
 
     public static List<Integer> getDecisions(String filepath) throws Exception {
         if (filepath == null || filepath.isEmpty() )
